@@ -10,17 +10,14 @@ MongoDB is a **NoSQL** database that works fundamentally differently from tradit
 
    Example of a MongoDB document:
    ```json
-   {
-       "_id": "12345",
-       "name": "Alice",
-       "age": 30,
-       "address": {
-           "street": "123 Main St",
-           "city": "New York",
-           "zip": "10001"
-       },
-       "hobbies": ["reading", "hiking", "traveling"]
-   }
+  {
+  "_id": {
+    "$oid": "6518a76e4f9b9f6a2b5d9cfa"
+     },
+     "name": "Alice Johnson",
+     "age": 28,
+     "city": "Los Angeles"
+  }
    ```
 
 ### 2. **Schema Flexibility**
