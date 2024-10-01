@@ -8,7 +8,7 @@ MongoDB is a **NoSQL** database that works fundamentally differently from tradit
    - Each **document** represents a record and can contain various fields and data types, including arrays and nested documents.
    - Documents are stored in **collections**. A collection is equivalent to a table in a relational database, but documents in a collection don’t need to have a uniform structure (they can have different fields).
 
-   Example of a MongoDB document:
+   Example of a MongoDB Person document:
    ```json
   {
   "_id": {
